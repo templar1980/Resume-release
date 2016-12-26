@@ -1,0 +1,84 @@
+.aboutme-box {
+    margin: 70px 0 50px 0;
+    padding: 0 15%;
+}
+
+.aboutme-box img {
+    float: right;
+    margin: 0 0 20px 20px;
+    border: 2px solid lightgray;
+}
+
+.baldesmithing-box {
+    margin: 70px 0 50px 0;
+    padding: 0 15%;
+}
+
+.baldesmithing-box img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border: 2px solid gray;
+}
+
+.contacts-box {
+    margin: 70px 0 50px 0;
+    padding: 0 20%;
+}
+
+.contacts-box img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1100px) and (orientation:landscape) {
+    .baldesmithing-box {
+        margin: 70px 0 20px 0;
+        padding: 0 6%;
+    }
+    .baldesmithing-box img {
+        width: 60%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+        border: 2px solid gray;
+    }
+    .aboutme-box {
+        margin: 70px 0 50px 0;
+        padding: 0 6%;
+    }
+}
+
+@media screen and (max-width: 1100px) and (orientation:portrait) {
+    .baldesmithing-box {
+        margin: 70px 0 20px 0;
+        padding: 0 5%;
+    }
+    .baldesmithing-box img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+        border: 2px solid gray;
+    }
+    .aboutme-box {
+        margin: 70px 0 50px 0;
+        padding: 0 5%;
+    }
+    .contacts-box img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation:portrait) {
+    .aboutme-box img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        border: 2px solid lightgray;
+    }
+}

@@ -1,0 +1,232 @@
+.fade-slider {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 1em;
+    list-style: none;
+    background: #fff url(../../img/galleries/bg-promo.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.fade-slider li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /*transform: translate(-50%,-50%);*/
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: 1;
+}
+
+.switch-controls {
+    margin-top: 0.5em;
+    z-index: 5;
+}
+
+.switch-controls div {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    position: relative;
+    margin-left: 0.5em;
+    opacity: 0.3;
+}
+
+.switch-controls div:first-child {
+    margin: 0;
+}
+
+.switch-controls div:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+
+.switch-controls>div.switch-active {
+    opacity: 0.7;
+    background: white;
+}
+
+
+/*.switch-active:after {
+	content: "";
+	display: block;
+	border-radius: 50%;
+	background: gray;
+	width: 0.5em;
+	height: 0.5em;
+	position: absolute;
+	left: 0.25em;
+	top: 0.25em;
+}*/
+
+.btn-area {
+    content: "prev";
+    display: block;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.btn-area-next {
+    right: 0;
+}
+
+.btn-area-prev {
+    left: 0;
+}
+
+.btn-prev,
+.btn-next {
+    width: 3em;
+    height: 3em;
+    background-color: rgba(50,50,50,0.2);
+    background-image: url(../../img/other/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 52% 50%;
+    background-size: 30% auto;
+    border-radius: 50%;
+    /*border: 1px solid rgba(250,250,250,0.1);*/
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    z-index: 4;
+}
+
+.btn-next {
+    right: 20%;
+}
+
+.btn-prev {
+    left: 20%;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.btn-area-prev:hover .btn-prev,
+.btn-area-next:hover .btn-next {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.description {
+    width: 50%;
+    /*max-width: 00px;*/
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    color: rgba(250, 250, 250, 0.6);
+    font-size: 0.9em;
+    text-align: right;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.description span {
+    display: block;
+}
+
+.description span.name {
+    font-size: 3em;
+    /*color: rgba(57, 181, 74, 0.7);*/
+    /*color: rgba(250,250,250,0.5);*/
+    font-weight: 700;
+    /*-webkit-mask-image:url(../../img/other/mask.png);
+	mask-image:url(../../img/other/mask.png);*/
+	/*background: linear-gradient(to bottom, rgb(57,181,74) 50%, black 80%);
+	-webkit-background-clip: text;*/
+    /*color: transparent;*/
+}
+
+.description span.info {
+    width: 50%;
+    position: relative;
+    right: 0;
+}
+
+.description .name a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.description .name a:hover {
+    text-decoration: none;
+    color: lightblue;
+    transition: color 0.5s;
+}
+
+.window-preview-next,
+.window-preview-prev {
+    position: absolute;
+    width: 9em;
+    height: 9em;
+    background: white;
+    opacity: 0;
+    border: 0.2em solid rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.window-preview-next {
+    /*top: calc(50% - 5em);
+	right: calc(50% + 5em);*/
+    top: 40%;
+    right: 120%;
+    transform: translate(50%, -50%) scale(0);
+}
+
+.btn-next:hover+.window-preview-next {
+    opacity: 0.85;
+    transform: translate(50%, -50%) scale(1);
+    transition: opacity 0.5s 1s, transform 0.5s 1s;
+}
+
+.btn-prev:hover+.window-preview-prev {
+    opacity: 0.85;
+    transform: translate(50%, -50%) scale(1);
+    transition: opacity 0.5s 1s, transform 0.5s 1s;
+}
+
+.window-preview-prev {
+    /*	top: calc(50% - 5em);
+	left: calc(50% - 5em);*/
+    top: 40%;
+    left: 10%;
+    transform: translate(50%, -50%) scale(0);
+}
+
+@media screen and (max-width: 992px) and (orientation:portrait) {
+    .fade-slider {}
+    /*.btn-prev, .btn-next {
+		opacity: 1;
+	}*/
+    .switch-controls>div {
+        margin-left: 1em;
+    }
+}
+
+@media screen and (max-width: 992px) and (orientation:landscape) {
+    .fade-slider {
+        font-size: 1.2em;
+    }
+    .switch-controls>div {
+        margin-left: 1em;
+    }
+    /*.btn-prev, .btn-next {
+		opacity: 1;
+	}*/
+}

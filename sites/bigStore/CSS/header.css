@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1340px;
+    /*min-width: 1000px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+header {
+    width: 100%;
+    height: 165px;
+    background: #e0e0e0;
+    position: relative;
+    z-index: 200;
+
+}
+
+.logo {
+    width: 175px;
+    height: 175px;
+    background: #f71818;
+    position: absolute;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.logo>span {
+    font-family: Impact;
+    color: white;
+}
+
+.logo>span:first-child {
+    font-size: 50pt;
+    text-transform: uppercase;
+}
+
+.logo>span:last-child {
+    font-size: 25pt;
+}
+
+/*Вопрос: почему код ниже не работает?*/
+
+/*.logo:after {
+	content: '';
+	display: block;
+	z-index: 1000;
+    position: absolute; 
+    left: 175px;
+    top: 165px;
+    border: 5px solid transparent;
+    border-left: 5px solid #828282;
+    border-top: 5px solid #828282;
+}*/
+
+.triangle {
+    z-index: 2;
+    position: absolute;
+    left: 295px;
+    top: 165px;
+    border: 5px solid transparent;
+    border-left: 5px solid #828282;
+    border-top: 5px solid #828282;
+}
+
+.social {
+    width: 100%;
+    height: 72px;
+    box-shadow: inset 0 -1px 0 0 white, inset 0 -2px 0 0 #cdcdcd;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 120px;
+}
+
+header menu {
+    width: 100%;
+    height: 49px;
+    margin: 0;
+    padding-left: 295px;
+}
+
+header menu a {
+    text-decoration: none !important;
+    height: 100%;
+}
+
+header menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header menu li {
+    height: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: Coda;
+    color: #1f1f1f;
+    padding: 0 25px;
+    box-shadow: inset -1px 0 0 0 white, inset -2px 0 0 0 #cdcdcd;
+    transition: background 1s;
+}
+
+header menu a:first-child>li {
+    padding-left: 40px;
+}
+
+header menu a:hover>li {
+    background: #1f1f1f;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.shopping-cart {
+    width: 100%;
+    height: 44px;
+    background: #252525;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    padding-left: 335px;
+    padding-right: 125px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-cart>div:last-child>span:first-child {
+    font-weight: bold;
+}
+
+.shopping-cart>div:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    position: relative;
+}
+
+.select-menu>a {
+    text-decoration: none !important;
+}
+
+.select-menu>a>li {
+    width: 25px;
+    height: 25px;
+    background: #f71818;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden-menu {
+    width: 300px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 30px;
+    right: 3px;
+    list-style-type: decimal;
+    cursor: default;
+    opacity: 0;
+    border:1px solid white;
+    transition: opacity 1s ease-out;
+    /*box-shadow: 0 0 0 1px white, 0 0 0 2px #cdcdcd;*/
+}
+
+.hidden-menu>li {
+    width: 100%;
+    height: 100px;
+    background: #e0e0e0;
+    color: #252525;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial;
+    box-shadow: inset 0 0 0 1px white, 0 0 0 2px #cdcdcd;
+}
+
+.select-menu>a:active .hidden-menu {  
+   opacity: 1;
+}
+
+.price-item {
+    font-size: 1.2em;
+}
+
+.image-item {
+    width: 60px;
+    height: 70px;  
+    border: 1px solid #cdcdcd;
+    background: linear-gradient(to top, white 40%, #cdcdcd);
+}  
+
+.image-item:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMG/Example1.png);
+    background-position: 50% 100%;
+    background-repeat:  no-repeat;
+    background-size: contain;
+}
+
+
+
+.social input {
+    width: 210px;
+    height: 30px;
+    border: none;
+    z-index: 2;
+    background: #bcbcbd;
+    box-shadow: inset 0 2px 3px 0px #898a8c;
+    border-radius: 15px/50%;
+    padding: 0 15px;
+}
+
+input::-webkit-input-placeholder {
+	color:white;
+}
+
+input::-moz-placeholder {
+	color:white;
+}
+
+input:focus {
+	border:none;
+	outline: none;
+}
+
+.social>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.glyphicon-search {
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top:25%;
+	left:87%;
+	color:white;
+	transform:rotateY(180deg);
+}
+
+/*.social>div:after,
+.social>div:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #bcbcbd;
+    border-radius: 10%/50%;
+    box-shadow: inset 0 2px 3px 0 #898a8c;
+    z-index: 1;
+}	
+
+.social>div:after {
+    transform: translateX(-50%);
+}
+
+.social>div:before {
+    transform: translateX(50%);
+}*/
+
+.social a {
+    text-decoration: none !important;
+    margin-right: 10px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bcbcbd;
+    box-shadow: inset 0 2px 3px 0 #898a8c;
+    transition: background 1s;
+}
+
+.social li>div {
+	width: 15px;
+	height: 15px;
+	background-image: url(../IMG/sprites.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.social a:nth-child(1)>li>div {
+	background-position: 0 0;
+}
+
+.social a:nth-child(2)>li>div {
+	background-position: -15px 0;
+}
+
+.social a:nth-child(3)>li>div {
+	background-position: -30px 0;
+}
+.social a:nth-child(4)>li>div {
+	background-position: -45px 0;
+}
+.social a:nth-child(5)>li>div {
+	background-position: -60px 0;
+}
+.social a:nth-child(6)>li>div {
+	background-position: -75px 0;
+}
+
+.social a:hover li {
+	background: #252525;
+	box-shadow: none;
+}

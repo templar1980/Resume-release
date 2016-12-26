@@ -1,0 +1,684 @@
+.main {
+    width: 100%;
+    position: relative;
+    background: #eaebef;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-pattern {
+    width: 100%;
+    height: 100%;
+    background: url(../IMG/main-pat.png) 0 0 repeat;
+    background-size: 4px 4px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.main:after {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 450px;
+    background: url(../IMG/right.png) 100% 0% no-repeat;
+    z-index: 0;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+}
+
+.main:before {
+    content: '';
+    display: block;
+    width: 30%;
+    height: 500px;
+    background: url(../IMG/left.png) 0% 0% no-repeat;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.8;
+    z-index: 0;
+    left: 0;
+    top: 0;
+}
+
+#carousel-example-generic {
+    width: 100%;
+    height: 410px;
+    z-index: 4;
+    position: relative;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-control {
+    width: 10%;
+    background-image: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.carousel-control:hover div {
+    background: #f71818;
+}
+
+.carousel-control>div {
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background: #b5b5b5;
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control>div>span {
+    color: white!important;
+    position: static !important;
+    margin: 0!important;
+    font-weight: bold!important;
+}
+
+.item {
+    height: 100%;
+    padding: 0 15%;
+    display: none;
+    font-family: Coda;
+    position: relative;
+}
+
+.item>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.example1>div h3 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0;
+    display: block;
+    background: #1d69bf;
+    color: white;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.example1>div h1 {
+    width: 100%;
+    display: inline;
+    text-align: right;
+}
+
+.example1>div h3>span {
+    font-size: 0.5em;
+}
+
+.example1 a {
+    background: #1d69bf !important;
+}
+
+.example2>div>div:first-child {
+    font-size: 15em;
+    color: #f71818;
+    text-shadow: 2px 0 0 white, -2px 0 0 white, 0 2px 0 white, 0 -2px 0 white, 7px 7px 5px gray;
+    transform: rotate(-15deg);
+    position: relative;
+    z-index: 1;
+}
+
+.example2>div>div:first-child>div {
+    font-size: 15px;
+    text-shadow: none;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    height: 50px;
+    background: #f71818;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    z-index: -1;
+}
+
+.example2>div h3 {
+    margin-top: 0;
+}
+
+.item>div>div:first-child {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item>div>div:last-child {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.item img {
+    width: 95%;
+    height: auto;
+}
+
+.item a {
+    width: 130px;
+    height: 50px;
+    display: block;
+    background: #f71818;
+    border: none;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.item a>span {
+    font-size: 0.8em;
+    margin: -5px;
+    padding: 0;
+}
+
+.new-products {
+    width: 1110px;
+    height: 360px;
+    background: #f3f3f3;
+    z-index: 4;
+    position: relative;
+    box-shadow: 0 5px 10px 0 #cdcdcd;
+}
+
+.featured {
+    width: 250px;
+    height: 378px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 5px 0 10px 0 #cdcdcd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Coda Heavy;
+    src: url(../fonts/coda.heavy.ttf);
+}
+
+.title {
+    width: 100%;
+    height: 55px;
+    background: #fe1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Coda Heavy;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    padding: 0 24px;
+}
+
+.featured-products {
+    width: 100%;
+    height: 323px;
+    background: #ffffff;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.title a:hover {
+    text-shadow: 2px 2px 10px white;
+}
+
+.featured-products-slide {
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    display: none;
+}
+
+.featured-products-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.featured-products img {
+    width: 100%;
+    max-height: 195px;
+}
+
+.slide-info {
+    font-family: Arial;
+    font-size: 13px;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+}
+
+.add-shopping-cart {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(../IMG/shopping-cart.png) 50% 50% no-repeat gray;
+    background-size: 25px auto;
+    bottom: 50%;
+    right: 0;
+    transform: translateY(50%);
+    border: none;
+    outline: none;
+}
+
+.slide-info>div:first-child {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.slide-info>div+div {
+    color: #a90b0b;
+}
+
+.red-add-cart {
+    background-color: red;
+}
+
+
+.old-price-after {
+    color: #9c9c9c;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+
+.old-price-before {
+    color: #9c9c9c;
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+
+.remark {
+    display: none;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+}
+
+.remark>div {
+    width: 200%;
+    height: 25px;
+    background: #fe1f1f;
+    border: 2px solid white;
+    box-shadow: 0 0 0 3px #fe1f1f;
+    transform: rotate(45deg) translate(-6%, 126%);
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-style: italic;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.remark:before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #a42929;
+    border-left: 5px solid #a42929;
+    top: 0;
+    right: 69px;
+}
+
+.remark:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #a42929;
+    border-left: 5px solid #a42929;
+    top: 69px;
+    right: 0;
+}
+
+.remark-new>div:first-child {
+    display: block;
+}
+
+.remark-new>div:first-child>div:after {
+    content: 'New';
+}
+
+.remark-sale>div:first-child {
+    display: block;
+}
+
+.remark-sale>div:first-child>div:after {
+    content: 'Sale';
+}
+
+.featured-active {
+    display: block;
+}
+
+.products {
+    width: 100%;
+    height: 100%;
+}
+
+.products-scroll {
+    width: 815px;
+    height: calc(90% - 54px);
+    margin-left: 275px;
+    overflow-x: auto;
+}
+
+.products-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.products-scroll::-webkit-scrollbar {
+    height: 8px;
+    background-color: #F5F5F5;
+    overflow: visible;
+}
+
+.products-scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: red;
+}
+
+.products>div:first-child {
+    width: 100%;
+    height: 54px;
+    padding-left: 275px;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 53px;
+    font-size: 20px;
+    font-family: Coda;
+    text-transform: uppercase;
+    background: white;
+}
+
+.products-scroll>div {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.new-products-item {
+    width: 250px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-right: 25px;
+}
+
+.new-products-item img {
+    width: 70%;
+    height: auto;
+    max-height: 155px;
+}
+
+.new-products-item>div:nth-child(2) {
+    width: 100%;
+    height: 155px;
+    border: 1px solid #e5e5e5;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.remark-products {
+    top: -10px;
+    right: -10px;
+}
+
+.main-products {
+    width: 1110px;
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    z-index: 3;
+    padding-top: 10px;
+}
+
+.trending-now {
+    width: 250px;
+    z-index: 5;
+}
+
+.catalog {
+    width: 860px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.trending-now>div {
+	width: 100%;
+	height: 75px;
+	background: #252525;
+	z-index: 10;
+}
+
+.menu-trending ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+.menu-trending a {
+	width: 100%;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	cursor: pointer;
+
+}
+
+.menu-trending li {
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid #e7e7e7;
+	line-height: 55px;
+	padding-left: 25px;
+	font-family: Coda;
+	font-size: 18px;
+	color:#252525;
+	position: relative;
+}
+
+.menu-trending a:hover li {
+	
+	text-shadow: 0px 0px 20px black;
+}
+
+.menu-trending {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	box-shadow: 12px 0 10px -5px #cdcdcd ;
+	z-index: 5;
+}
+
+.trending-now>div {
+	width: 100%;
+	height: 75px;
+	background: #252525;
+}
+
+.active-menu-trending>li {
+	width: calc(100% + 12px);
+	background: #f21717;
+	color:white;
+	padding-left: 37px;
+}
+
+.active-menu-trending>li:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top:0;
+	right: -54px;
+	width: 0;
+	height: 0;
+	border: 27px solid transparent;
+	border-left: 27px solid #f21717;
+}
+
+.active-menu-trending>li:before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom:-12px;
+	left: 0;
+	width: 0;
+	height: 0;
+	
+	border: 6px solid transparent;
+	border-right: 6px solid #a1a1a1;
+	border-top:6px solid #a1a1a1;
+}
+
+.menu-trending .active-menu-trending:hover li{
+	text-shadow: none;
+}
+
+.catalog-item {
+	width: 50%;
+	height: 265px;
+	background: linear-gradient(54deg, #d4d4d4 0%, #efefef 30%, white 100%);
+	box-shadow: inset 0 -3px 20px -5px #d4d4d4;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+.catalog-item>div:nth-child(2) {
+	padding: 0 18px;
+	width: 245px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.catalog-item img {
+	height: auto;
+	max-height: 240px;
+	max-width: 240px;
+}
+
+.catalog-item-title {
+	padding: 18px;
+	padding-right: 25px;
+	width: 185px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: Coda;
+}
+
+.catalog-button {
+	position: static;
+	transform: none;
+}
+
+.catalog-button:after {
+	content: "Add to cart";
+	display: block;
+	width: 85px;
+	height: 40px;
+	background: #e1e1e1;
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 34px;
+	margin-top: -1px;
+}
+
+.catalog-item-title-name {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.catalog-item-title-description {
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.catalog-item-title-price {
+	font-size: 14px;
+	margin-bottom: 15px;
+	color:#a90b0b;
+}
+
+.remark-catalog {
+	display: block;
+	top:0;
+	right: 0;
+}
+
+.remark-catalog:after, .remark-catalog:before  {
+	display: none;
+}

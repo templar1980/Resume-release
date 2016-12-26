@@ -1,0 +1,161 @@
+[{
+    "name": {
+        "en": "Online shop",
+        "ru": "Интернет магазин",
+        "ua": "Інтернет магазин"
+    },
+    "customer": {
+        "en": "Customer: private person",
+        "ru": "Заказчик: частное лицо",
+        "ua": "Замовник: приватна особа"
+    },
+    "theme": {
+        "en": "Theme: handmade knives",
+        "ru": "Тематика: ножы ручной работы",
+        "ua": "Тематика: ножі ручної роботи"
+    },
+    "frameworks": [{
+            "en": "Used:",
+            "ru": "Использовано:",
+            "ua": "Використано:"
+        },
+        ["jQuery", "Modernizr", "SVG", "AJAX", "CSS animation", "SVG animation"]
+    ],
+    "info": {
+        "ru": "При создании проекта не было использовано ни одного плагина, весь функционал сайта создан самостоятельно. Single Page Application.",
+        "en": "It was not used any plugin to create Project, the entire site functionality is created independently.",
+        "ua": "При створенні проекту не було використано жодного плагіна, весь функціонал сайту створений самостійно. Single Page Application."
+    },
+    "url": "sites/BF/",
+    "imgUrl": ["img/knife-1.png", "img/knife-2.png", "img/knife-3.png"],
+    "menu": "commercial",
+    "id": "BurtFoster"
+}, {
+    "name": {
+        "en": "Landing page",
+        "ru": "Целевая страница",
+        "ua": "Цільова сторінка"
+    },
+    "customer": {
+        "en": "Customer: Ltd. \"Золотой базар\"",
+        "ru": "Заказчик: ООО \"Золотой базар\"",
+        "ua": "Замовник: ТОВ \"Золотий базар\""
+    },
+    "theme": {
+        "en": "Theme: jewelry",
+        "ru": "Тематика: ювелирные изделия",
+        "ua": "Тематика: ювелірні вироби"
+    },
+    "frameworks": [{
+            "en": "Used:",
+            "ru": "Использовано:",
+            "ua": "Використано:"
+        },
+        ["Modernizr", "Bootstrap", "native JS", "jQuery", "CSS animation"]
+    ],
+    "info": {
+        "ru": "Страница, продающая акционные ювелирные изделия, с возможность заказа звонка. Просмотр изделий в модальном окне, обратный таймер.",
+        "en": "It is website for sell of promotional jewelry with the ability to order by calling. Browse products in a modal window, the сountdown timer.",
+        "ua": "Сторінка, що продає акційні ювелірні вироби, з можливість замовлення дзвінка. Перегляд виробів в модальному вікні, зворотній таймер."
+    },
+    "url": "sites/zolbaz/",
+    "imgUrl": ["img/zol-baz-1.png", "img/zol-baz-2.png", "img/zol-baz-3.png"],
+    "menu": "commercial",
+    "id": "zolbaz"
+}, {
+    "name": {
+        "en": "BigStore",
+        "ru": "BigStore",
+        "ua": "BigStore"
+    },
+    "customer": {
+        "en": "Customer: beClever",
+        "ru": "Заказчик: beClever",
+        "ua": "Замовник: beClever"
+    },
+    "theme": {
+        "en": "Theme: clothing",
+        "ru": "Тематика: одежда",
+        "ua": "Тематика: одяг"
+    },
+    "frameworks": [{
+            "en": "Used:",
+            "ru": "Использовано:",
+            "ua": "Використано:"
+        },
+       ["Bootstrap", "native JS", "jQuery", "CSS animation"]
+    ],
+    "info": {
+        "ru": "Страница интернет-магазина \"Big Store\", созданная при прохождении курсов \"Front-End Pro\"",
+        "en": "Online store page \"Big Store\", created during the course of \"Front-End Pro\"",
+        "ua": "Сторінка інтернет-магазину \"Big Store\", створена при проходженні курсів \"Front-End Pro\""
+    },
+    "url": "sites/bigStore/",
+    "imgUrl": ["img/bigStore-1.png", "img/bigStore-2.png", "img/bigStore-3.png"],
+    "menu": "other",
+    "id": "bigstore"
+}, {
+    "name": {
+        "en": "Analog and Digital Clock",
+        "ru": "Аналоговые и цифровые часы",
+        "ua": "Аналоговий та цифровий годинник"
+    },
+    "customer": {
+        "en": "Customer: beClever",
+        "ru": "Заказчик: beClever",
+        "ua": "Замовник: beClever"
+    },
+    "theme": {
+        "en": "Theme: training",
+        "ru": "Тематика: обучение",
+        "ua": "Тематика: навчання"
+    },
+    "frameworks": [{
+            "en": "Used:",
+            "ru": "Использовано:",
+            "ua": "Використано:"
+        },
+       ["native JS"]
+    ],
+    "info": {
+        "ru": "Часы созданы на native JS",
+        "en": "Watches created in native JS",
+        "ua": "Годинники створені на native JS"
+    },
+    "url": "sites/Clock/",
+    "imgUrl": ["img/clock-1.png", "img/clock-2.png", "img/clock-3.png"],
+    "menu": "other",
+    "id": "clock"
+}, {
+    "name": {
+        "en": "Game",
+        "ru": "Игра",
+        "ua": "Гра"
+    },
+    "customer": {
+        "en": "Customer: beClever",
+        "ru": "Заказчик: beClever",
+        "ua": "Замовник: beClever"
+    },
+    "theme": {
+        "en": "Theme: training",
+        "ru": "Тематика: обучение",
+        "ua": "Тематика: навчання"
+    },
+    "frameworks": [{
+            "en": "Used:",
+            "ru": "Использовано:",
+            "ua": "Використано:"
+        },
+       ["native JS"]
+    ],
+    "info": {
+        "ru": "Игра \"камень, ножницы, бумага\" создана на native JS",
+        "en": "This game \"rock, paper, scissors\" was created on native JS",
+        "ua": "Гра \"камінь, ножиці, папір\" створена на native JS"
+    },
+    "url": "sites/myGame/",
+    "imgUrl": ["img/game-1.png", "img/game-2.png", "img/game-3.png"],
+    "menu": "other",
+    "id": "game"
+}]

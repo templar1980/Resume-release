@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Document</title>
+   <link rel="stylesheet" href="CSS/animate.css">
+   <link rel="stylesheet" href="CSS/style_myGame.css">
+   <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+   <div class=loader>
+      <div></div>
+      <div>Loading...</div>
+   </div>
+   <div class="main">
+      <audio src=""></audio>
+      <div class="header">
+         <div class='name slide1 animated bounceIn'>Try your luck!</div>
+         <div class='name slide2 animated bounceIn'>Play a game of rock, scissors, paper!</div>
+         <div class='slider'>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+               </ol>
+               <!-- Wrapper for slides -->
+               <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                     <img src="IMG/1.jpg" alt="...">
+                     <div class="carousel-caption">
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="IMG/2.jpg" alt="...">
+                     <div class="carousel-caption">
+                     </div>
+                  </div>
+                  <div class="item">
+                     <img src="IMG/3.jpg" alt="...">
+                     <div class="carousel-caption">
+                     </div>
+                  </div>
+               </div>
+               <!-- Controls -->
+               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+               </a>
+               <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="work-zone select animated fadeIn">
+         <div>
+            <button onclick="start('Rock')"><img src="IMG/newRockBlur.png"></button>
+         </div>
+         <div>
+            <button onclick="start('Scissors')"><img src="IMG/newScissorsBlur.png"></button>
+         </div>
+         <div>
+            <button onclick="start('Paper')"><img src="IMG/newPaperBlur.png"></button>
+         </div>
+      </div>
+      <div class="work-zone round animated zoomIn">
+         <span>R</span>
+         <span>O</span>
+         <span>U</span>
+         <span>N</span>
+         <span>D</span>
+         <span>&nbsp;</span>
+         <span class='number-round'>1</span>
+      </div>
+      <div class="work-zone game animated fadeIn">
+         <div>
+            <div class="player-choise">Human
+               <div>
+                  <span class="message human-win animated tada">WIN!</span>
+                  <span class="message human-comp-tie animated tada">TIE!</span>
+               </div>
+            </div>
+            <div class="comp-choise">Computer
+               <div class='anim'>
+                  <span class="message comp-win animated tada">WIN!</span>
+                  <span class="message human-comp-tie animated tada">TIE!</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="total">
+         <div class='score'>
+            <div>Human</div>
+            <div class='human'>0</div>
+         </div>
+         <div class='score'>
+            <div>Tie</div>
+            <div class='tie'>0</div>
+         </div>
+         <div class='score'>
+            <div>Computer</div>
+            <div class='computer'>0</div>
+         </div>
+      </div>
+      <div class="footer">
+         Copyright &copy; 2016 TemplarDesign&reg; | All questions by
+         <a href="mailto:templar1980@ukr.net">e-mail</a> or <a href="skype:templar.1980">Skype</a>
+      </div>
+   </div>
+   <div class="winner">
+      <span></span>
+      <button onclick="restart()">Try again </button>
+   </div>
+   <script src="JS/script_myGame.js"></script>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>

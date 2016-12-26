@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Burt Foster - Handmade knives</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Exo:400,500,600,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="lib/FDslider/FDslider.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="fonts/css/fontello.css">
+    <link rel="stylesheet" href="fonts/css/animation.css">
+    <link rel="stylesheet" href="css/itemPage.css">
+    <link rel="stylesheet" href="css/galleries.css">
+    <link rel="stylesheet" href="css/svg.css">
+    <link rel="stylesheet" href="css/shopCart.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="lib/jquery-latest.js"></script> -->
+    <script src="lib/easings/vendor/jquery.easing.js"></script>
+    <script src="lib/jqueryTransform/jquery.transform2d.js"></script>
+    <script src="lib/modernizr/modernizr.js"></script>
+    <script src="lib/FDslider/FDSlider.js"></script>
+    <script src="lib/Tooltip/Tooltip.js"></script>
+    <script src="lib/PageSlider/sliderPg.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/Controllers/home.js"></script>
+    <script src="js/Controllers/navbarController.js"></script>
+    <script src="js/Controllers/galleries.js"></script>
+    <script src="js/Controllers/galleries.js"></script>
+    <script src="js/Controllers/itemPage.js"></script>
+    <script src="js/Controllers/kniveControls.js"></script>
+    <script src="js/Controllers/shopCart.js"></script>
+    <script src="js/Controllers/aboutme.js"></script>
+    <script src="js/Controllers/galleriesAll.js"></script>
+</head>
+
+<body>
+    <div id="preloader">
+        <div>
+        </div>
+        <div>
+            <i class="icon-spin5 animate-spin"></i>
+            <br>
+            <!-- <span>Loading...</span> -->
+        </div>
+    </div>
+    <div class="main">
+        <header class="fixed">
+            <div class="logo">
+                <img src="img/other/logo-full.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a class='active home'>
+                            <i class="icon-home-1"></i>Home</a>
+                        <a href="#" class='active home rolling'>
+                            <i class="icon-home-1"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="galleries">Galleries</a>
+                        <a href="#" class="galleries rolling">Galleries</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bladesmithing">Bladesmithing</a>
+                        <a href="#" class="bladesmithing rolling">Bladesmithing</a></li>
+                    <li>
+                        <a href="#" class="aboutme">About Me</a>
+                        <a href="#" class="rolling aboutme">About Me</a></li>
+                    <li>
+                        <a href="#" class="contacts">Contacts</a>
+                        <a href="#" class="contacts rolling">Contacts</a></li>
+                    <li class="cart">
+                        <i class="icon-shop"></i>
+                        <span>0</span> item(s)
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="mobile-header">
+            <div class="btn-menu-mobile"><i class="icon-menu-1"></i></div>
+            <img src="img/other/logo.svg" alt="">
+            <div class="cart"><i class="icon-shop"></i><span></span></div>
+        </div>
+        <div class="mobile-menu-overlay">
+        </div>
+        <div class="mobile-menu">
+            <div class="wrap">
+                <img src="img/other/logo-full-black.svg" alt="">
+                <ul>
+                    <li><a href="#" class="home active">Home</a></li>
+                    <li><a href="#" class="galleries">Galleries</a></li>
+                    <li><a href="#" class="bladesmithing">Bladesmithing</a></li>
+                    <li><a href="#" class="aboutme">About me</a></li>
+                    <li><a href="#" class="contacts">Contacts</a></li>
+                    <li><a href="#" class="btn-mobile-menu-close"><i class="icon-left-open"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="galleries-menu-wrapper">
+            <div>
+                <i class="icon-right-open-1 btn-galleries-close"></i>
+            </div>
+            <div>
+                <div class="search-wrapper">
+                    <input type="search" placeholder="Enter name" list="data-list-items">
+                    <datalist id="data-list-items">
+                    </datalist>
+                    <div class="search">
+                        <i class="icon-search"></i>
+                    </div>
+                    <span>Item name not found</span>
+                </div>
+                <div class="btn-galleries btn-g-rollup btn-g-disabled">
+                    <i class="icon-up-open-1"></i>
+                </div>
+                <div class="galleries-viewport">
+                    <div class="galleries-menu">
+                    </div>
+                </div>
+                <div class="btn-galleries btn-g-rolldown">
+                    <i class="icon-down-open-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+        </div>
+        <div class="footer">
+            <div class="quick-links">
+                <span>Quick Links:</span>
+                <ul>
+                    <li>Home</li>
+                    <li>Galleries</li>
+                    <li>Blacksmithing</li>
+                    <li>About me</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <div class="footer-logo">
+                    <img src="img/other/logo.svg" alt="">
+                    <div><span>Burt  Foster </span>
+                        <br>handmade Knives</div>
+                </div>
+                <p><i class="icon-location"></i>23697 Archery Range Road </p>
+                <p>Bristol, VA 24202</p>
+                <p><i class="icon-phone"></i><a href="skype:413-386-8009">413-386-8009</a></p>
+                <p><i class="icon-mail-alt"></i><a href="mailto:burt@bf.com">burt@bf.com</a></p>
+            </div>
+            <div class="newsletter">
+                <div class="subscribe">
+                    Newsletter:
+                    <form action="">
+                        <input type="text" placeholder="your@email.com">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="follow">
+                    Follow us:
+                    <div class="social">
+                        <a href="#">
+                            <i class="icon-youtube-1"></i>
+                            <div class="social-tooltip">Follow us on YouTube</div>
+                        </a>
+                        <a href="#">
+                            <i class="icon-facebook-circled"></i>
+                            <div class="social-tooltip">Follow us on Facebook</div>
+                        </a>
+                        <a href="#">
+                            <i class="icon-twitter-circled"></i>
+                            <div class="social-tooltip">Follow us on Twitter</div>
+                        </a>
+                        <a href="#">
+                            <i class="icon-pinterest-circled"></i>
+                            <div class="social-tooltip">Follow us on Painterest</div>
+                        </a>
+                        <a href="#">
+                            <i class="icon-instagram-circled"></i>
+                            <div class="social-tooltip">Follow us on Instagram</div>
+                        </a>
+                        <a href="#">
+                            <i class="icon-gplus-circled"></i>
+                            <div class="social-tooltip">Follow us on Google+</div>
+                        </a>
+                        <a href="#">
+                            <i class="icon-tumbler"></i>
+                            <div class="social-tooltip">Follow us on Tumblr</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-overlay"></div>
+        </div>
+        <div class="copyright">
+            Copyright 2016 © BF.com
+        </div>
+        <div class="main-overlay"></div>
+        <div class="modal">
+            <div class="fullscreen-overlay"></div>
+            <div class="image-wrapper">
+                <div class="image-preloader">
+                    <div>
+                        <i class="icon-spin5 animate-spin"></i>
+                    </div>
+                </div>
+                <div class="fullscreen-image">
+                </div>
+                <div class="btn-close">close</div>
+                <div class="modal-qt"><span></span> of <span></span></div>
+                <button class="modal-image-next">
+                    <i class="icon-right-open-1"></i>
+                </button>
+                <button class="modal-image-prev">
+                    <i class="icon-left-open-1"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="btn-toTop">
+        <i class="icon-up-open-big"></i>
+    </div>
+</body>
+
+</html>

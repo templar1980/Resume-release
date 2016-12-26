@@ -1,0 +1,666 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Segoe UI;
+    background: url(../IMG/pat.png);
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Ubuntu Mono', Comic Sans MS !important;
+    color: white !important;
+}
+.loader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader>div:first-child {
+    width: 10%;
+    height: 10%;
+    background: url(../IMG/loader.gif) 50% 50% no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+}
+
+.main {  
+    width: 60%;
+    margin: 0 auto;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bounceIn {
+    animation-duration: 3s;
+}
+
+.slide1 {
+    display: block;
+    position: relative;
+}
+
+
+.slide2 {
+    display: none;
+}
+
+.slider {
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    height: 100%!important;
+    width: auto!important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none!important;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+}
+.slider {
+    width: 70%;
+    height: 80%;
+    background: white;
+}
+
+.work-zone {
+    width: 90%;
+    height: 33%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.select {
+    display: flex;
+}
+
+.round {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.game {
+    display: none;
+}
+
+.select>div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+.game>div {
+    width: 66%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.player-choise {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.player-choise>div {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMG/newPaperBlur.png);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    background-size: 85% auto; 
+    position: relative; 
+}
+
+.comp-choise {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.anim {
+    width: 100%;
+    height: 100%;
+    background: url(../IMG/Sprite.png) 50% 50%;
+    background-repeat: repeat-y;
+    background-size: 85% auto; 
+    animation: none;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+/*.static {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMG/newRockBlur.png); 
+    background-position:  0% 50%;
+     background-repeat: no-repeat;
+    background-size: 85% auto; 
+    animation: none;
+    position: relative; 
+}*/
+
+.message {
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    top: 15%;
+    left:5%;
+    color:white;
+    font-size: 6em;
+    text-shadow: gray 1px 0px, gray 1px 1px, gray 0px 1px, gray -1px 1px, gray -1px 0px, gray -1px -1px, gray 0px -1px, gray 1px -1px, 3px 3px 3px black, 0px 0px 10px white ;
+    }
+
+.human-comp-tie {
+    display: none;
+}
+
+.human-win {
+    display: none;
+}
+
+.zoomIn {
+    animation-duration: 1s;
+}
+
+.comp-win {
+    display: none;
+}
+
+.work-zone button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    transition: transform 0.5s ease-out;
+    text-align: center;
+}
+
+.work-zone button:hover {
+    border: none;
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.work-zone button:active {
+    border: none;
+    outline: none;
+}
+
+.work-zone button>img {
+    width: 90%;
+    height: auto;
+}
+
+.total {
+    width: 100%;
+    height: 14%;
+    min-height: 100px;
+     max-width: 300px;
+     min-width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.score {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.human,
+.tie,
+.computer {
+    background: gray;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.footer {
+    /*height: 9%;*/
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.footer>a {
+    color: lightblue;
+}
+
+.winner {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+}
+
+.winner>button {
+    width: 20%;
+    height: 10%;
+    margin-top: 5%;
+    background: linear-gradient(to bottom, white,gray);
+    box-shadow: 0 0 0 2px gray;
+    color:gray;
+    font-weight: bold;
+    font-size: 0.5em;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    overflow:hidden;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-indicators {
+    bottom:0 !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation:portrait){
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        height: 45%;
+        font-size: 1.1em;
+    }
+
+    .slider {
+        width: 90%;
+    }
+
+    .work-zone  {
+        height: 30%;
+    }
+
+    .work-zone>div {
+        height: 75%;
+    }
+
+    .select>div {
+        width:33%;
+    }
+    
+    .total {
+        max-width:200px; 
+        min-height: 70px;
+        max-height: 80px;
+    }
+    .score>div+div {
+        width: 60px;
+        height: 60px;
+    }
+    
+    button>img {
+        width: 100%;
+    }
+
+    button {
+        transition: none;
+    }
+
+    button:hover {
+        transform: none;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1000px) and (orientation:landscape){
+    .main {
+        width: 95%;
+    }
+
+
+    .header {
+        width: 90%;
+        height: 20%;
+        font-size: 1em;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .work-zone  {
+        height: 40%;
+    }
+
+    .player-choise>div, .anim {
+        background-size: 70% auto;
+    }
+
+    .select>div {
+        width:33%;
+    }
+    
+    .total {
+        max-width:200px; 
+        min-height: 70px;
+        max-height: 80px;
+    }
+    .score>div+div {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .work-zone button>img {
+        width: 70%;
+    }
+
+    button {
+        transition: none;
+    }
+
+    button:hover {
+        transform: none;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1200px) and (orientation:landscape) and (max-height: 350px) {
+    .player-choise>div, .anim {
+        background-size: 60% auto;
+    }
+
+    .work-zone button>img {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 699px) and (orientation:landscape){
+    .main {
+        width: 95%;
+    }
+
+    .header {
+        width: 90%;
+        height: 15%;
+        font-size: 0.8em;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .work-zone  {
+        height: 45%;
+        width: 100%;
+    }
+
+    .select>div {
+        width:33%;
+    }
+
+    .message {
+        font-size: 4em;
+    }
+    
+    .total {
+        max-width:220px;
+        min-width: 180px; 
+        min-height: 80px;
+        max-height: 100px;
+    }
+    .score>div+div {
+        width: 60px;
+        height: 60px;
+        font-size: 1em;
+    }
+    .score>div {
+        font-size: 0.8em;
+    }
+    
+    .work-zone button>img {
+        width: 80%;
+    }
+
+    button {
+        transition: none;
+    }
+
+    button:hover {
+        transform: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) and (orientation:portrait){
+    .main {
+            
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        height: 15%;
+        font-size: 0.9em;
+    }
+
+    .slider {
+       display:none;
+    }
+
+    .work-zone  { 
+        width: 60%;
+        height: 75%;
+        flex-direction: column;
+    }
+
+    .select>div {
+        width:70%;
+    }
+    
+    .total {
+        width: 30%;
+        height: 75%;
+        min-height: 0;
+        min-width: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .score {
+        width: 50%;
+        height: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        font-size: 0.8em;
+    }
+
+    .score>div+div {
+        width: 90px;
+        height: 90px;
+    }
+    
+    button>img {
+        width: 100%;
+    }
+
+    button {
+        transition: none;
+        
+    }
+
+    button:hover {
+        transform: none;
+    }
+
+    .message {
+        font-size: 4em;
+    }
+
+    .game>div {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .player-choise, .comp-choise {
+        width: 100%;    
+        height: 40%;
+    }
+}
+
+/*@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .main {
+        width: 70%;
+    }
+
+    .slider {
+        display:none;
+    }
+
+    .header {
+        height: 20%;
+        font-size: 1.2em;
+    }
+
+    .work-zone {
+        height: 40%;
+    }
+
+    .work-zone>div {
+        width:33%;
+    }
+    
+    .total {
+        max-width: 280px;
+        min-width: 200px; 
+        min-height: 70px;
+        max-height: 80px;
+    }
+    .score>div+div {
+        width: 60px;
+        height: 60px;
+    }
+    
+    button>img {
+        width: 100%;
+    }
+
+    button {
+        transition: none;
+    }
+
+    button:hover {
+        transform: none;
+    }
+}
+
+
+
+@media screen and (min-width:480px) and (max-width:749px) {
+    .main {
+        width: 100%;
+    }
+
+    .slider {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1201px) and (min-width: 1400px) {
+    .main {
+        width: 78%;
+    }
+}
+
+@media screen and (max-width:479px) {
+
+}*/
+
+
+@keyframes compChoiseRock {
+    from { background-position: 50% 1000% }
+    to { background-position: 50% 0%; }
+}
+
+@keyframes compChoiseScissors {
+    from { background-position: 50% 1000% }
+    to { background-position: 50% 50%; }
+}
+
+@keyframes compChoisePaper {
+    from { background-position: 50% 1000% }
+    to { background-position: 50% 100%; }
+}

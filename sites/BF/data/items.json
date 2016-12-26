@@ -1,0 +1,692 @@
+[{
+        "name": "Safari Bowie",
+        "folder": "img/galleries/SafariBowie/",
+        "url": {
+            "small": ["bowie026-s.jpg"],
+            "big": ["bowie026-b.jpg"],
+            "promo": "SafariBow-promo.png"
+        },
+        "price": 738.00,
+        "featured": false,
+        "promo": true,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "This knife was made as a special order for a good customer, who needed a big knife to carry with him on African hunting trips.  It was accented by trophies from a prior hunt including the black water buffalo hide used on the throat of the sheath and the warthog tusk that I fashioned into a belt hook by making an iron ring that the tusk fit into and securing it with a small nickel silver pin.",
+            "The blade has a Laminated steel blade, forged into a long, trailing clip point that is fast and dangerous - which was exactly the point.  The guard and handle are iron and the handle is Sambar stag."
+        ],
+        "id": "SafariBowie"
+    }, {
+        "name": "Foster Collaboration",
+        "folder": "img/galleries/FosterBroadwellCollaboration/",
+        "url": {
+            "small": ["bowie023-1.jpg"],
+            "big": ["bowie023-1-b.jpg"],
+            "promo": "FosterCol-promo.png"
+        },
+        "price": 2040.00,
+        "featured": true,
+        "promo": true,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "This unique bowie was a collaboration between myself and knifemaker David Broadwell.  A customer asked us to both collaborate on one knife, commissioned by him to get the most our of our respective areas of expertise.",
+            "I forged and heat treated the Laminated steel blade and made the Damascus used in the guard and the sheath stud.  David carved and finished the blade, fittings and the Hawaiian Koa handle.  I made the sheath for the finished knife and carved it with a scroll pattern that seemed appropriate for the knife.",
+            "The knife was pictured on the cover of Knives 2011."
+        ],
+        "id": "FosterBroadwellCollaboration"
+    }, {
+        "name": "Arrowhead Camp Knife",
+        "folder": "img/galleries/ArrowheadCampKnife/",
+        "url": {
+            "small": ["camp77-1.jpg", "camp77-2.jpg"],
+            "big": ["camp77-1-b.jpg", "camp77-2-b.jpg"],
+            "promo": "arrowhead-promo.png"
+        },
+        "price": 768.00,
+        "featured": true,
+        "promo": true,
+        "menuItem": "Camp Knives",
+        "specification": [
+            "Against my better judgment I drew this knife out including the arrowhead shape of the bolsters, having no idea how I might fit something like that to the handle material.  It could have been a disaster if I managed to get into a hurry, but I put the rest of the work on my bench aside and took my time and I really enjoyed bringing this one to life.  A massive knife, I wanted to make sure the elegance didn't get lost in all that sharp steel.",
+            "Blade is Laminated steel, the arrowhead bolsters are Turkish-twist Damascus, delicately fitted to African Blackwood scales with nickel silver pins.  The sheath is has a tooled window with steel and copper corners to accent it.",
+            "Blade: 11-1/2\"  Overall Length: 16-3/4\""
+        ],
+        "id": "ArrowheadCampKnife"
+    }, {
+        "name": "Blue Collar Hunters",
+        "folder": "img/galleries/BlueCollarHunters/",
+        "url": {
+            "small": ["blue-collar-1.jpg", "blue-collar-2.jpg", "blue-collar-3.jpg"],
+            "big": ["blue-collar-1-b.jpg", "blue-collar-2-b.jpg", "blue-collar-3-b.jpg"],
+            "promo": ""
+        },
+        "price": 568.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Hunters",
+        "specification": [
+            "The Blue Collar hunter has for years been my basic, workhorse hunting and daily carry knife.  The size and shape of the blade and handle make it the ideal knife for hunting and camp tasks as well as the daily cardboard box or rope.  These knives are all made with my stainless / carbon laminated steel in a random ladder pattern.",
+            "Blades are Laminated Steel, satin finished with tapered tangs.",
+            "The handles are polished exotic hardwoods, Micarta and G-10.  The sheaths are a right-handed pouch style made from tightly fitted and boned leather.  Left-handed sheaths by request.  Prices are between $450 and $600 depending on handle materials.",
+            "These knives are one of my regular models so if you would like one next time I make them, email me and let me know."
+        ],
+        "id": "BlueCollarHunters"
+    }, {
+        "name": "Bonsai Tanto",
+        "folder": "img/galleries/BonsaiTanto/",
+        "url": {
+            "small": ["damhunter046-s.jpg"],
+            "big": ["damhunter046-b.jpg"],
+            "promo": ""
+        },
+        "price": 490.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Hunters",
+        "specification": [
+            "The first knife I ever made was a small chisel-point tanto, so this knife is a little bit back to my roots. ",
+            "The blade is forged from a mosaic Damascus that looks like flowers spinning in the wind.  The point is much more traditionally shaped, unlike the American tanto, with a sweeping swedge grind that gives the blade a peaked spine.  The handle scales are African Blackwood with domed fine silver pins.  The handle ends in a sort of rear-integral shape with Damascus integral bolsters and silver pins.",
+            "The sheath was another fun inspiration.  I have a friend who is really into bonsai and I recently made him a small grafting knife for his work.  As I was thinking about his American interpretation of bonsai, I decided to give it a go myself - as a bladesmith and sheath maker.  So I collected small branches from several different types of pine (even tried one from my Christmas tree) and finally settled on one from a small scrubby pine that had very short needles.  I trimmed the branches in true bonsai fashion and arranged it to flow with the shape of the sheath, and them pressed the branch into the leather - thus the end of the process defined the name for the whole piece."
+        ],
+        "id": "BonsaiTanto"
+    }, {
+        "name": "Buckeye CLI",
+        "folder": "img/galleries/BuckeyeCLI/",
+        "url": {
+            "small": ["cli-005a-s.jpg", "cli-005b-s.jpg", "cli-005c-s.jpg"],
+            "big": ["cli-005a-b.jpg", "cli-005b-b.jpg", "cli-005c-b.jpg"],
+            "promo": ""
+        },
+        "price": 628.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Hunters",
+        "specification": [
+            "The CLI, or Composite Laminated Integral is a knife I can claim as one of my few truly original ideas.  It's the most complicated way to make a very simple knife.  Complicating simple things is something I guess I do a lot - so says my wife.",
+            "CLI's are Laminated but only the blade portion.  You can see in the third photo how the high-carbon core is only present in the blade, and leaves the tang comprised completely of 420 stainless.  After the laminating process the knives are forged to shape, just like integral knives forged from one piece of steel.",
+            "The handle is stabilized California Buckeye burl with six domed nickel silver pins.",
+            "I think the sheath is in keeping with the rest of the knife as it is elegantly simple yet fairly complex.  It is simple in that it lacks any ornamentation or tooling, and yet it has a unique design that's not only for holding the knife secure, it shows off the knife's best feature - the laminated spine.  The knife rocks into the sheath from the side, and is held secure with the large pouch-style flap, leaving the spine exposed.",
+            "The blade is 5.5\" long with an overall length of about 10.3\""
+        ],
+        "id": "BuckeyeCLI"
+    }, {
+        "name": "Integral Hunters",
+        "folder": "img/galleries/IntegralHunters/",
+        "url": {
+            "small": ["hunter055a-s.jpg", "hunter058a-s.jpg", "hunter063-s.jpg", "hunter069-s.jpg"],
+            "big": ["hunter055a-b.jpg", "hunter058a-b.jpg", "hunter063-b.jpg", "hunter069-b.jpg"],
+            "promo": ""
+        },
+        "price": 600.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Hunters",
+        "specification": [
+            "This is a sampling of carbon steel integral hunters.  They are forged from round bar - generally the size of the \"bolster\" area is the size of the parent steel bar.  They are hand-finished on the flats and mirror polished on the rest of the exposed steel.",
+            "Handles are various select woods and ivories."
+        ],
+        "id": "IntegralHunters"
+    }, {
+        "name": "Keyhole Fighter",
+        "folder": "img/galleries/KeyholeFighter/",
+        "url": {
+            "small": ["bowie040a-s.jpg", "bowie040b-s.jpg", "bowie040c-s.jpg", "bowie040d-s.jpg", "bowie040e-s.jpg", "bowie040f-s.jpg", "bowie040g-s.jpg"],
+            "big": ["bowie040a-b.jpg", "bowie040b-b.jpg", "bowie040c-b.jpg", "bowie040d-b.jpg", "bowie040e-b.jpg", "bowie040f-b.jpg", "bowie040g-b.jpg"],
+            "promo": ""
+        },
+        "price": 735.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "Another example of a knife that came to life with paper and pencil not knowing if making it come together was even possible.  There are twenty individual arcs that curve into and out of each other, intersecting and flowing together to make a subhilt fighter that's as grabby to the hand as it is to the eye. ",
+            "The blade is forged laminated steel - long, sleek and pointy.  The one-piece subhilt guard was where it got interesting.  The solid 416 stainless guard was cut with two intersecting arcs, one larger than the other, and the English walnut handle had a piece removed so that it could be hand-fitted into the keyhole of the Thorn-pointed guard. The knife is built as a take-down - all held together by a heat-treated 440 stainless barrel nut at the butt. ",
+            "The sheath is Dragonskin with a reinforced, wraparound throat secured on the subhilt guard itself.",
+            "This knife was built as an effort to see if the design was possible from a technical standpoint.  However, the very nature of a subhilt is limiting and this knife is no exception.  If you have abnormally thick fingers, pass on this knife.  If you want a piece you can admire, or if you have average sized hands act quick.  This is the very first knife design in what will become a new family of blades.  And there's only one first.",
+            "Blade: 10\"  Overall Length: 15-1/2\""
+        ],
+        "id": "KeyholeFighter"
+    }, {
+        "name": "Northstar Fighter",
+        "folder": "img/galleries/NorthstarFighter/",
+        "url": {
+            "small": ["fighter-055a-s.jpg", "fighter-055b-s.jpg", "fighter-055c-s.jpg", "fighter-055d-s.jpg"],
+            "big": ["fighter-055a-b.jpg", "fighter-055b-b.jpg", "fighter-055c-b.jpg", "fighter-055d-b.jpg"],
+            "promo": ""
+        },
+        "price": 930.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "Another fighter in the lose series of black knives, the Northstar Fighter is distinct because I squeezed black into more places than ever before. ",
+            "The blade is forged Meteor Shower Damascus - that's \"Firestorm\" pattern at night  :-), with a long, sharp clip that makes for a very fast blade.  The W-2 guard is sculpted with thorned tips to remind those on both ends of the knife that it means business.  Both the blade and the guard are slow rust blued over several days.  I have rust blued some parts before, but never a whole blade, and certainly never damascus.  I love the subdued result that cloaks the pattern in the steel, while still being totally visible.  The handle is African Blackwood, and the stainless pins are set into the path of a shooting star.",
+            "The sheath has a textured and polished North Star attached to Dragonskin leather.",
+            "The blade is 9.75\" long with an overall 15.25\"."
+        ],
+        "id": "NorthstarFighter"
+    }, {
+        "name": "Sub-Hilt Fighter",
+        "folder": "img/galleries/Sub-HiltFighter/",
+        "url": {
+            "small": ["fighter022-s.jpg"],
+            "big": ["fighter022-b.jpg"],
+            "promo": ""
+        },
+        "price": 660.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "The first Sub-Hilt Fighter I ever made here from 2009.  The blade is laminated steel, double ground with a razor edge on both sides.  The guard and sub-hilt are Firestorm Damascus with polished stainless spacers and a desert ironwood handle with scalloped butt. ",
+            "The sheath is a chevron-pattern basketweave pattern."
+        ],
+        "id": "Sub-HiltFighter"
+    }, {
+        "name": "Iron Spur Fighter",
+        "folder": "img/galleries/IronSpurFighter/",
+        "url": {
+            "small": ["fighter042a-s.jpg", "fighter042c-s.jpg", "fighter042d-s.jpg", "fighter043a-s.jpg", "fighter043d-s.jpg", "fighter052-s.jpg", "spur-macro-03-s.jpg", "spur-macro-05-s.jpg", "spur-macro-09-s.jpg", "spur-macro-s.jpg"],
+            "big": ["fighter042a-b.jpg", "fighter042c-b.jpg", "fighter042d-b.jpg", "fighter043a-b.jpg", "fighter043d-b.jpg", "fighter052-b.jpg", "spur-macro-03-b.jpg", "spur-macro-05-b.jpg", "spur-macro-09-b.jpg", "spur-macro-b.jpg"],
+            "promo": ""
+        },
+        "price": 810.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "The new Iron Spur Fighter is an aggressive mid-sized fighter in a full-dress finish.  The knife design is a further evolution toward creating a blade made from arcs meeting each other at opposing angles to create corners and points in crucial places.  The knife is light and fast in the hand.",
+            "The knives are shown with Dragonskin sheaths that are a new design.  I have always valued the need for a one-hand sheath retention system where the keeper is not in the way of the cutting edge.  If you are familiar with my semi-pouch design this is a similar concept, adapted to this knife.",
+            "The Iron Spur knives were made as a limited run of 10 knives for the year of 2015.  I will offer more in 2016 so if you're interested in one, let me know."
+        ],
+        "id": "IronSpurFighter"
+    }, {
+        "name": "Combat #6",
+        "folder": "img/galleries/Combat6/",
+        "url": {
+            "small": ["combat087-s.jpg", "combat087b-s.jpg"],
+            "big": ["combat087-b.jpg", "combat087b-b.jpg"],
+            "promo": ""
+        },
+        "price": 685.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Military Knives",
+        "specification": [
+            "I am please to introduce you to a new knife I've been working on for some time now.  The new Combat #6.  The knives which fall into the category of true Combat knives are rare, partly because of the complexity of the weapon.  A Combat knife needs to be big enough, but not too big.  Strong, but not too thick.  A cutter, but not to be babied.  Natural to carry, natural to draw, natural to use.  The new Combat #6 has elements borrowed from my very popular Combat #4, but further refined.  The point is stronger, the handle just a little thinner while being a hair longer.   Blade tip is flat ground while the cutting edge is a thinner hollow grind.  Minor changes all, but at this level major improvements are all subtle.",
+            "In addition to my forged, Laminated Steel I am also offering a carbon steel version in 80CRV2.  I have used this new steel for a while now and I'm pleased with it's unique place in the spectrum of blade steels.  I am impressed enough that I chose to offer this new knife in a slightly more attainable non-forged version in both blued and bright finishes.  All of the new knives are heat treated here, ground with the same care as the most pricey exhibition-grade knife, and delivered in a leather sheath that is cut and sewn and finished twenty feet from where I am sitting. ",
+            " am confident that whether you need a solid daily carry knife, a dependable addition to your bug-out bag, or the best last-ditch weapon on your gear, the new Combat #6 will speak for itself what it is capable of.",
+            "In addition to the blade steel options, you also have the choice of a black or chestnut sheath. ",
+            "Blade length is just over 5\" with an overall length of 10.25\""
+        ],
+        "id": "Combat#6"
+    }, {
+        "name": "Combat #4",
+        "folder": "img/galleries/Combat4/",
+        "url": {
+            "small": ["combat055-s.jpg", "combat055b-s.jpg"],
+            "big": ["combat055-b.jpg", "combat055b-b.jpg"],
+            "promo": ""
+        },
+        "price": 595.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Military Knives",
+        "specification": [
+            "The Combat #4 is my most popular military-designed knife.  I have been making knives for soldiers, Marines and other men and women in harm's way for several years now, and this knife is my attempt to combine as many practical features into one piece as possible.  This is intended as an all-purpose carry knife for utility and for combat. ",
+            "The blades are forged from my signature Laminated Steel (420 stainless with a high-carbon 1095 core).  Forge texture is left on the sides with a satin finish on the blade bevels and the perimeter.  The handles are carved canvas micarta in either Black, Green or Sand color.  The hardware is stainless.",
+            "The sheath is my Semi-pouch design.  Made to hold a knife securely and yet be able to get the knife into action with only a swift tug, it gives the best combination of speed and security I have seen in a leather sheath.  High-ride belt loop to fit up to a 1.75\" belt in right hand.  (Left hand sheaths available by request.)",
+            "Blade is 5.5\" with an overall length of 10.5\"."
+        ],
+        "id": "Combat#4"
+    }, {
+        "name": "Combat #4 Elite",
+        "folder": "img/galleries/Combat4Elite/",
+        "url": {
+            "small": ["combat096a-s.jpg", "combat096b-s.jpg"],
+            "big": ["combat096a-b.jpg", "combat096b-b.jpg"],
+            "promo": ""
+        },
+        "price": 975.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Military Knives",
+        "specification": [
+            "The Combat #4 Elite is forged from the same Laminated Steel as the standard Combat #4, but entirely hand-finished. One of the distinguishing features of the Combat #4 Elite is that there are no straight lines anywhere on the knife - all curves.",
+            "The bolsters are hand-finished stainless mated to stabilized Maple burl, secured with four domed nickel silver pins. ",
+            "The sheaths are the standard Combat #4 semi-pouch in a Dragonskin finish. ",
+            "Blade length is 5.25\" with an overall length of 10.5\"."
+        ],
+        "id": "Combat#4Elite"
+    }, {
+        "name": "Great White North",
+        "folder": "img/galleries/GreatWhiteNorth/",
+        "url": {
+            "small": ["bowie075a-s.jpg", "bowie075b-s.jpg", "bowie075c-s.jpg"],
+            "big": ["bowie075a-b.jpg", "bowie075b-b.jpg", "bowie075c-b.jpg"],
+            "promo": ""
+        },
+        "price": 865.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "There are so many little things I wanted to do with this knife you may not even notice them all.  Basically I wanted a big knife that was defined by it's curves...no straight lines anywhere.  Even the plunge grind is a long, sweeping grind line rather than my usual crisp, straight cut.  The soft \"S\" shape of the blade is Laminated steel with a re-curved edge and a sweeping clip.  The bolsters are exploding stars in a field of night.  The handle is fossil walrus ivory, nearly white with only small patches of brown and blue.  Domed nickel silver pins hold everything together.",
+            "The sheath needed to have a tie-in with the knife, so I made the ivory teardop from a leftover piece of the ivory on the handle, and secured it to the antique brown steel belt stud with five little prongs of nickel silver.  Reminds me of a massive diamond.  The rest of the sheath is tooled in my ray-skin pattern."
+        ],
+        "id": "GreatWhiteNorth"
+    }, {
+        "name": "Iron Star Bowie",
+        "folder": "img/galleries/IronStarBowie/",
+        "url": {
+            "small": ["bowie074a-s.jpg", "bowie074b-s.jpg", "bowie074c-s.jpg"],
+            "big": ["bowie074a-b.jpg", "bowie074b-b.jpg", "bowie074c-b.jpg"],
+            "promo": ""
+        },
+        "price": 856.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "This long, clip-pointed knife will feel right at home either in the woods or on your mantle.  I did some things I hadn't done in a while, and it was a lot of fun.",
+            "This blade is Laminated Steel (420 and 1095) in the ladder-pattern I love so much.  The blade looks and feels longer than it's 9.5\", and is hand-finished.  The bolsters are Damascus in an exploding star pattern.  The wood on the handle was one of those pieces I was saving for something really special.  It has such a high polish that it is hard to get a picture of it.  It's spalted maple, but it is nearly black with radiant flecks of orange and gold.  Finally there are ten little domed nickel silver pins holding the whole thing together.",
+            "I was so proud of the handle and the bolsters that like a good daddy, I didn't want to completely cover them up, so the sheath has that little window at the throat with a quilt and fire pattern on the body of the sheath.  The quilting and campfire tools are both ones I made, shown in the top photo above the knife.",
+            "The blade is 9-5/8\" long with an overall of 14-5/8\"."
+        ],
+        "id": "IronStarBowie"
+    }, {
+        "name": "Half-LightBowie",
+        "folder": "img/galleries/HalfLightBowie/",
+        "url": {
+            "small": ["dambowie014a-s.jpg", "dambowie014b-s.jpg", "dambowie014c-s.jpg"],
+            "big": ["dambowie014a-b.jpg", "dambowie014b-b.jpg", "dambowie014c-b.jpg"],
+            "promo": ""
+        },
+        "price": 873.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "This long, clip-pointed knife will feel right at home either in the woods or on your mantle.  I did some things I hadn't done in a while, and it was a lot of fun.",
+            "This blade is Laminated Steel (420 and 1095) in the ladder-pattern I love so much.  The blade looks and feels longer than it's 9.5\", and is hand-finished.  The bolsters are Damascus in an exploding star pattern.  The wood on the handle was one of those pieces I was saving for something really special.  It has such a high polish that it is hard to get a picture of it.  It's spalted maple, but it is nearly black with radiant flecks of orange and gold.  Finally there are ten little domed nickel silver pins holding the whole thing together.",
+            "I was so proud of the handle and the bolsters that like a good daddy, I didn't want to completely cover them up, so the sheath has that little window at the throat with a quilt and fire pattern on the body of the sheath.  The quilting and campfire tools are both ones I made, shown in the top photo above the knife.",
+            "The blade is 9-5/8\" long with an overall of 14-5/8\"."
+        ],
+        "id": "HalfLightBowie"
+    }, {
+        "name": "Take-Down Bowies",
+        "folder": "img/galleries/TakeDownBowies/",
+        "url": {
+            "small": ["bowie025-s.jpg", "bowie025b-s.jpg", "bowie025c-s.jpg"],
+            "big": ["bowie025-b.jpg", "bowie025b-b.jpg", "bowie025c-b.jpg"],
+            "promo": ""
+        },
+        "price": 789.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "These massive bowies are both examples of two different knives made with similar materials in the same blade construction.",
+            "The blades are Laminated steel, forged to shape, Damascus fittings and black micarta handles with stainless spacers.  The knives are actually held together by the Damascus \"nut\" at the butt of the handles.  There is no epoxy holding the knives  together, just that heavy nut. ",
+            "A knife that can be taken down without special tools is a benefit that will be seen down the road if ever maintenance or re-finishing is needed."
+        ],
+        "id": "TakeDownBowies"
+    }, {
+        "name": "Bamboo Camp Knife",
+        "folder": "img/galleries/BambooCampKnife/",
+        "url": {
+            "small": ["camp93-s.jpg"],
+            "big": ["camp93-b.jpg"],
+            "promo": ""
+        },
+        "price": 567.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Camp Knives",
+        "specification": [
+            "After I finished the Reptilian Fighter, I wanted to play.  So I turned on the forge, put in a piece of 1.5\" diameter round W-2 bar, and let it heat to orange.  I let the knife grow into a big, curvy beast of a camp knife under the hammer, getting it so close to it's finished size before shutting of the forge that the hammer did the work normally reserved for the grinder.  It was forged so close to shape that even the plunges were forged rather than ground in.  Only the very edge was rolled to it's finished, sharp edge.  It is well balanced with just enough forward weight to be an amazingly powerful chopper without being heavy.",
+            "The handle is English walnut, finished in a non-reflective satin, attached with hidden pins.  The rattan bamboo wrap is both decorative and provides functional extra grip.  The lanyard tube is bamboo as well.",
+            "the deep pouch sheath is tooled and finished in an antique dark brown.",
+            "Blade length is 12\" with an overall of 17.5\""
+        ],
+        "id": "BambooCampKnife"
+    }, {
+        "name": "Bamboo Kukri",
+        "folder": "img/galleries/BambooKukri/",
+        "url": {
+            "small": ["bowie-064-s.jpg"],
+            "big": ["bowie-064-b.jpg"],
+            "promo": ""
+        },
+        "price": 470.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Camp Knives",
+        "specification": [
+            "This blade was one I forged as a demonstration for some bladesmithing students, as an example of how a blade could be forged so close to shape that only very little finishing work needed to be done to make it into a functional tool.  The blade was forged to the exact shape you see here, and the only grinding done was the satin bevels of the blade.  Even the tapered tang was forged with a taper, finished straight and flat, and the scales were mounted directly on top of what left the anvil.",
+            "The blade is 1084, forged from .25\" x 1.5\" stock.  The blade is through hardened with a spring tempered spine.  The scales are what I can only refer to as \"bamboo\" micarta.  It was originally thought to be maroon, but inside it is primarily yellow, with irregular splotches of maroon, which to my eyes, looks like bamboo.  The scales are thin, to leave room for the wrap which is done in a Japanese style, for an incredible grip.",
+            "The sheath is a pouch style with faux leather overlays in brown against a chestnut background.",
+            "The blade is 10.25\" long, with an overall length of 16\""
+        ],
+        "id": "BambooKukri"
+    }, {
+        "name": "Oakleaf Camp Knife",
+        "folder": "img/galleries/OakleafCampKnife/",
+        "url": {
+            "small": ["camp95-s.jpg"],
+            "big": ["camp95-b.jpg"],
+            "promo": "OakLeaf-promo.png"
+        },
+        "price": 513.00,
+        "featured": false,
+        "promo": true,
+        "menuItem": "Camp Knives",
+        "specification": [
+            "I love stepping away from the grinding / machining / finishing side of the shop and basically making a knife in the forge.  Yeah, of course there's grinding and finishing on this knife, but the soul of it is all hammer and anvil.  Forged to shape and left with all the natural forge texture with only the tiniest bit ground off.  The entire blade surface is touched with one shade of gray.  Not black, not shiny, just dulled back a notch.",
+            "The handle is natural cocobolo, weathered with an oak leaf on each side.  Seemed like fun.  The sheath is a sturdy pouch style with a window to the handle - also because it seemed like fun.",
+            "The blade is 8\" long and just over 2\" wide, and the knife is 13\" overall. "
+        ],
+        "id": "OakleafCampKnife"
+    }, {
+        "name": "Rustic Camp Knife",
+        "folder": "img/galleries/RusticShovelnoseCampKnife/",
+        "url": {
+            "small": ["bowie-067-s.jpg"],
+            "big": ["bowie-067-b.jpg"],
+            "promo": ""
+        },
+        "price": 500.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Camp Knives",
+        "specification": [
+            "One of the unheralded benefits of forging is the design aspect.  If I were to sit down with a blank piece of paper, I would never come up with some of the lines and shapes that I would see during the forging process.  Late last year while I was teaching a bladesmithing class, I saw ABS Mastersmith Adam DesRosiers working on a camp knife.  He wasn't finished, but I saw the line of the knife above in his partially finished knife.  The shape I saw had a recurved edge, but had a point not unlike the point of a Japanese sword.",
+            "The blade of the knife is 1084, forged very close to shape with only the smallest amount removed near the edge to bring the blade to an edge.  The natural forging texture is visible in the dark portion at the spine.",
+            "The handle is some very nice, hand-finished English walnut covered with a Japanese style wrap.  These handles have amazing grip, and I think work well visually as a fusion of different styles that still compliment each other nicely. The sheath is a pouch style with a tooled faux inlay.",
+            "Blade length is 7-5/8\" with an overall length of 12-7/8\"."
+        ],
+        "id": "RusticCampKnife"
+    }, {
+        "name": "Laminated Ivory Dagger",
+        "folder": "img/galleries/LaminatedIvoryDagger/",
+        "url": {
+            "small": ["dagger004b-s.jpg", "dagger004d-s.jpg", "dagger004e-s.jpg"],
+            "big": ["dagger004b-b.jpg", "dagger004d-b.jpg", "dagger004e-b.jpg"],
+            "promo": ""
+        },
+        "price": 1030.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Daggers",
+        "specification": [
+            "This dagger was the first Laminated steel dagger, and I determined to give it the best of my creative abilities. ",
+            "The blade is my laminated steel, forged to shape.  The guard and pommel are multi-bar twist Damascus.  The handle is fossil walrus ivory.  The handle and Damascus fittings are mated to each other with curved joints which are very tricky to do, but worth the effort when done well.  The knife is held together by the domed silver tang that protrudes through the pommel.",
+            "The box was the first barnwood display box I made.  It was inspired by the type of box that a highly valued item might have been carried in 150 years ago.  The wood is local oak, the nails are antiques, and the hardware is hand-forged by me."
+        ],
+        "id": "LaminatedIvoryDagger"
+    }, {
+        "name": "Amber Maple Dagger",
+        "folder": "img/galleries/AmberMapleDagger/",
+        "url": {
+            "small": ["dagger009-s.jpg"],
+            "big": ["dagger009-b.jpg"],
+            "promo": ""
+        },
+        "price": 705.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Daggers",
+        "specification": [
+            "There is more than one way I forge laminated steel, and this method yields an almost mirror-image of the lamination line on the left and right side of the blade.  The fittings are Firestorm pattern Damascus with silver spacers and an amber spalted maple handle that has become knows here in the shop as \"church wood\" since it was taken from a dead maple tree on the property of the first Roman Catholic church built here in Bristol, Virginia in 1860."
+        ],
+        "id": "AmberMapleDagger"
+    }, {
+        "name": "Integral Dagger",
+        "folder": "img/galleries/IntegralDagger/",
+        "url": {
+            "small": ["dagger003b-s.jpg", "dagger003a-s.jpg", "dagger003c-s.jpg"],
+            "big": ["dagger003b-b.jpg", "dagger003a-b.jpg", "dagger003c-b.jpg"],
+            "promo": ""
+        },
+        "price": 875.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Daggers",
+        "specification": [
+            "A special order, this piece made in 2006 is forged from a solid bar of W-2, and clay hardened for a wonderfully active hamon.  The handle is African blackwood, faceted into an eight-sided handle.  Pins are domed nickel silver. ",
+            "The knife was intended as a display piece, so the stand is made to hold the blade suspended in space horizontally. "
+        ],
+        "id": "IntegralDagger"
+    }, {
+        "name": "Laminated Push Dagger",
+        "folder": "img/galleries/LaminatedPushDagger/",
+        "url": {
+            "small": ["dagger005-s.jpg"],
+            "big": ["dagger005-b.jpg"],
+            "promo": ""
+        },
+        "price": 420.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Daggers",
+        "specification": [
+            "Gamblers, thieves, knife makers and other low-life's made push daggers popular especially during the California gold rush.  Small, easy to conceal, and capable of a downright nasty wound.",
+            "This one is Laminated steel with African Blackwood scales. "
+        ],
+        "id": "LaminatedPushDagger"
+    }, {
+        "name": "Damascus Chef's Knife",
+        "folder": "img/galleries/DamascusChefKnife/",
+        "url": {
+            "small": ["kitchen012-s.jpg"],
+            "big": ["kitchen012-b.jpg"],
+            "promo": ""
+        },
+        "price": 850.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Chef's Knives",
+        "specification": [
+            "This ladder-pattern integral Chef's knife was made in 2011 as a custom order.  At the time, I had never used carbon fiber before and wasn't exactly sure it I'd like the way it looked against the classic Damascus steel blade.  I liked it. The woven pattern of the carbon fiber pairs with the blade pattern like a steak and a good wine.  I also love the monochrome look of a colorless knife.",
+            "Blade is just over 6\", making it a great general-use blade in the kitchen."
+        ],
+        "id": "DamascusChefKnife"
+    }, {
+        "name": "Jappalachian Gyuto",
+        "folder": "img/galleries/JappalachianGyuto/",
+        "url": {
+            "small": ["kitchen045-s.jpg", "kitchen049-s.jpg"],
+            "big": ["kitchen045-b.jpg", "kitchen049-b.jpg"],
+            "promo": ""
+        },
+        "price": 890.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Chef's Knives",
+        "specification": [
+            "Wide, long blade for general chef's work.",
+            "Forged Laminated steel, hidden-tang blade (410/1095 core).  Hand-finished bevels, with natural forge texture.  Octagonal handle.  Black micarta with lacewood handle.",
+            "Optional bourbon barrel knife stand available.",
+            "Blade length: 9\". Blade width: 1.85\". Overall: 14\"."
+        ],
+        "id": "JappalachianGyuto"
+    }, {
+        "name": "Damascus French Utility",
+        "folder": "img/galleries/DamascusFrenchUtility/",
+        "url": {
+            "small": ["kitchen048-s.jpg", "kitchen049-s.jpg"],
+            "big": ["kitchen048-b.jpg", "kitchen049-b.jpg"],
+            "promo": ""
+        },
+        "price": 913.00,
+        "featured": true,
+        "promo": false,
+        "menuItem": "Chef's Knives",
+        "specification": [
+            "Large, wide blade for general chef's work.",
+            "Chaotic random pattern damascus blade (O-1 & 15N20), full-tang.  Polished stainless bolsters, English walnut handle.",
+            "Optional bourbon barrel knife stand available.",
+            "Blade length: 8.25\". Blade width: 2\". Overall: 13.25\"."
+        ],
+        "id": "DamascusFrenchUtility"
+    }, {
+        "name": "8-8-8 Bowie",
+        "folder": "img/galleries/888Bowie/",
+        "url": {
+            "small": ["bowie013-s.jpg", "bowie013b-s.jpg", "bowie013c-s.jpg"],
+            "big": ["bowie013-b.jpg", "bowie013b-b.jpg", "bowie013c-b.jpg"],
+            "promo": ""
+        },
+        "price": 1028.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Bowie Knives",
+        "specification": [
+            "This knife was a custom order in 2004, and the theme of the knife - the inspiration was the 1888 silver dollar that I affixed to the throat of the sheath.  The number \"8\" is considered a lucky number in Chinese folklore, so we built a lucky Gambler's bowie inspired by the three 8's on the coin.",
+            "The blade was forged from W-2 and clay hardened.  The Damascus used for the fittings was made from 8 bars of twisted 8/8 \"W\" pattern steel.  So, 8-8-8.  The handle is a beautiful piece of Sambar stag.",
+            "Photos by Sharp By Coop"
+        ],
+        "id": "888Bowie"
+    }, {
+        "name": "Legacy Hunter",
+        "folder": "img/galleries/LegacyHunter/",
+        "url": {
+            "small": ["damhunter048-s.jpg", "damhunter049-s.jpg"],
+            "big": ["damhunter048-b.jpg", "damhunter049-b.jpg"],
+            "promo": ""
+        },
+        "price": 580.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Hunters",
+        "specification": [
+            "TThis Legacy Hunters shown have forged Firestorm pattern Damascus blades (O-1 and 15N20).  Guards are shown in both stainless and blackened carbon steel with polished hardwood handles.",
+            "Blade is 4.25\" with an overall of 9\"."
+        ],
+        "id": "LegacyHunter"
+    },  {
+        "name": "Teardrop Hunter",
+        "folder": "img/galleries/TeardropHunter/",
+        "url": {
+            "small": ["hunter009-s.jpg"],
+            "big": ["hunter009-b.jpg"],
+            "promo": ""
+        },
+        "price": 524.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Hunters",
+        "specification": [
+            "This is an early knife, made in 2002 as a new Journeyman Smith.  The Teardrop hunter went on to become a knife I made quite often over the years in slightly different variations, but always with the same basic theme.",
+            "Blade is forged from 52100 and hand-finished.  The bolsters are Damascus, and the handle scales are oosic.  Both the bolsters and the oosic scales are attached with blind pins - spring pins that pass through the tang and into the material from the underside without breaching the surface.",
+            "The prop under the knife is a walrus jawbone.  I used it in this capacity for years until I used it to make the handle of my Mastersmith dagger in 2004."
+        ],
+        "id": "TeardropHunter"
+    },  {
+        "name": "Cirrus Integral",
+        "folder": "img/galleries/CirrusIntegral/",
+        "url": {
+            "small": ["camp24-s.jpg"],
+            "big": ["camp24-b.jpg"],
+            "promo": ""
+        },
+        "price": 480.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "This integral fighter remains one of my better achievements in clay-hardened steel blades.  The blade is forged from a round bar of W-2, with blade flats meticulously hand-polished to reveal a hamon that looks like high altitude clouds.  The rest of the exposed metal is mirror polished, and it is finished with a stunning set of green mammoth ivory scales attached with nickel silver pins."
+        ],
+        "id": "CirrusIntegral"
+    }, {
+        "name": "Laminated Dirk",
+        "folder": "img/galleries/LaminatedDirk/",
+        "url": {
+            "small": ["bowie021-s.jpg", "bowie021b-s.jpg"],
+            "big": ["bowie021-b.jpg", "bowie021b-b.jpg"],
+            "promo": ""
+        },
+        "price": 611.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "This guardless Bowie was made in 2008.  It features a blade of Laminated steel, a polished nickel silver collar covering the ricasso, and fileworked Damascus ferrule.  The handle is desert ironwood secured with three polished, domed nickel silver pins."
+        ],
+        "id": "LaminatedDirk"
+    }, {
+        "name": "Reptilian Fighter",
+        "folder": "img/galleries/ReptilianFighter/",
+        "url": {
+            "small": ["fighter-056-s.jpg"],
+            "big": ["fighter-056-b.jpg"],
+            "promo": ""
+        },
+        "price": 700.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Fighters",
+        "specification": [
+            "This fighter was made from a new stab (get it....terrible pun) at some new damascus patterns.  It is unnamed, so if you want it, you get to name the pattern.  In the meantime, it's vaguely reptillian.  It is pointy, fast and fun.",
+            "The blade is made from O-1, 15N20 and 1095 in a high-contrast finish.  The thorned guard in a matte black finish with a nickel silver accent spacer.  The handle is beautiful piece of spalted maple.",
+            "The sheath is a high ride model tooled in a quilted pattern.",
+            "Blade is 7\" with an overall length of 12\"."
+        ],
+        "id": "ReptilianFighter"
+    }, {
+        "name": "Combat #5",
+        "folder": "img/galleries/Combat5/",
+        "url": {
+            "small": ["combat077-s.jpg", "combat078-s.jpg", "combat083-s.jpg"],
+            "big": ["combat077-b.jpg", "combat078-b.jpg", "combat083-b.jpg"],
+            "promo": ""
+        },
+        "price": 728.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Military Knives",
+        "specification": [
+            "The Combat #5 is the big brother to the versatile Combat #4.  It's the same knife but with a 2\" longer blade and an integral double guard.",
+            "The blade is forged from my stainless / carbon laminated steel (420 stainless with a 1095 core).  There is forge texture left on the ricasso and spine of the blade.  The knife is a full, tapered-tang with an integral guard.  In keeping with the utilitarian purposes of the knife, the clip is unsharpened.",
+            "The handle is carved canvas micarta, which gives a great wet grip with or without gloves.  The single finger groove also helps index the hand to the handle and provides a solid memory point.  The butt of the handle has a flare and drop that I am a big fan of.  The hardware is stainless with a lined lanyard hole.",
+            "The sheath is a new design.  Really, this is the semi-pouch sheath but for a knife with a double guard.  The knife is secured deeply in the sheath, and even with the keeper unsnapped, the knife sits securely making sure it comes out only when you want it to.  It's a high-ride sheath made to fit up to a 1.75\" belt.",
+            "Blade length is 7.4\" with an overall of 12.25\"."
+        ],
+        "id": "Combat5"
+    }, {
+        "name": "Jappalachian Santoku",
+        "folder": "img/galleries/JappalachianSantoku/",
+        "url": {
+            "small": ["kitchen037-s.jpg", "kitchen049-s.jpg"],
+            "big": ["kitchen037-b.jpg", "kitchen049-b.jpg"],
+            "promo": ""
+        },
+        "price": 638.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Chef's Knives",
+        "specification": [
+            "Mid-sized knife for general work...",
+            "Forged Laminated steel blade (410/1095 core).  Hand-finished bevels, with natural forge texture.  Octagonal handle.  Black micarta bolster with blue curly maple handle.",
+            "Optional bourbon barrel knife stand available.", 
+            "Blade length: 6.375\". Blade width: 1.95\". Overall: 11.25\"."
+        ],
+        "id": "JappalachianSantoku"
+    }, {
+        "name": "Kitchen Utility",
+        "folder": "img/galleries/KitchenUtility/",
+        "url": {
+            "small": ["kitchen011-s.jpg"],
+            "big": ["kitchen011-b.jpg"],
+            "promo": ""
+        },
+        "price": 438.00,
+        "featured": false,
+        "promo": false,
+        "menuItem": "Chef's Knives",
+        "specification": [
+            "In 2011, I was asked if I could make a set of Laminated steak knives.  In an effort to make a knife that was not only practical but has some visual pop, while not costing a fortune (I needed to make 8 of them), I cane up with this knife.  Essentially a modified Darkside knife, the one unique feature is the thicker stock in the handle.  Though only 3/8\" thick, it's amazing how just that much give it the feel of a \"real\" handle, and still has good grip from the forge texture.",
+            "The steak knife deal never happened, so I happily kept this knife for myself.  Though technically a culinary knife, I have a kydex sheath for it, and have used it to butcher a deer in the woods, clean fish at the beach and a million other things - in the actual kitchen."
+        ],
+        "id": "KitchenUtility"
+    }
+]

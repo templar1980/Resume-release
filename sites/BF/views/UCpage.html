@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	body>div {
+		position: absolute;
+		top: 50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		font-size: 1.5em;
+		font-family: Arial;
+		text-align: center;
+	}
+	div>div {
+		width: 50px;
+		height: 50px;
+		background: yellow;
+		color:red;
+		text-align: center;
+		line-height: 50px;
+		font-size: 1.5em;
+		font-weight: bold;
+		border-radius: 30%;
+		position: relative;
+		left: calc(50% - 25px);
+		margin-bottom: 25px;
+		transform-origin: center bottom;
+		animation: animWarning 1s infinite;
+		animation-direction: alternate;
+	}
+
+	div>div:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top:99%;
+		left: calc(50% - 10px);
+		border:10px solid transparent;
+		border-top: 10px solid yellow;
+
+	}
+
+	span {
+		opacity: 0.5;
+	}
+
+	@-webkit-keyframes animWarning {
+		from { transform: scale(0.9); }
+		to { transform: scale(1.2); }
+	}
+	@-o-keyframes animWarning {
+		from { transform: scale(0.9); }
+		to { transform: scale(1.2); }
+	}
+	@-moz-keyframes animWarning {
+		from { transform: scale(0.9); }
+		to { transform: scale(1.2); }
+	}
+	@keyframes animWarning {
+		from { transform: scale(1.5); }
+		to { transform: scale(1.8); }
+	}
+</style>
+<body>
+	
+	<div><div>!</div><span>Oh-oh... <br> sorry, page is under construction</span></div>
+</body>
+</html>

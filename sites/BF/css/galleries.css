@@ -1,0 +1,22 @@
+.galleries-wrapper {
+    width: 100%;
+    padding: 60px 40px 20px 40px;
+    margin: 0 auto;
+}
+
+.galleries-itemList-info {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.galleries-menu-item {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 1100px) {
+    .galleries-wrapper {
+        width: 100%;
+        padding: 60px 10px 0 10px;
+        margin: 0 auto;
+    }
+}
